@@ -1,0 +1,6 @@
+{
+  "name": "AUDITPRO - Sistema Integral de Auditoría Empresarial",
+  "description": "Sistema integral de auditorías internas bajo normas ISO 19011 y GTC-185, con programación, listas de chequeo, análisis de hallazgos, matriz de riesgos, actas oficiales, escáner documental y plan de mejoramiento.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

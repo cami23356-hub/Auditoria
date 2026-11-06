@@ -1,0 +1,1094 @@
+DESARROLLO DE UNA APLICACIÓN WEB PARA AUDITORÍAS EMPRESARIALES
+
+Desarrollar una aplicación web profesional, moderna, intuitiva y funcional llamada AUDITPRO – Sistema Integral de Auditoría Empresarial, que permita planificar, ejecutar, documentar y evaluar auditorías internas en cualquier tipo de empresa, independientemente de su tamaño o actividad económica.
+
+La aplicación debe estar diseñada para que un auditor pueda evaluar los procesos de una organización, identificar debilidades, detectar incumplimientos de normas, establecer riesgos y generar recomendaciones y planes de mejoramiento.
+
+1. MÓDULO DE PROGRAMACIÓN DE LA AUDITORÍA
+
+Permitir registrar:
+
+- Nombre de la empresa.
+- NIT.
+- Sector económico.
+- Actividad económica.
+- Dirección.
+- Nombre del representante legal.
+- Nombre del auditor.
+- Área o proceso que se va a auditar.
+- Fecha de programación.
+- Fecha de ejecución.
+- Objetivo de la auditoría.
+- Alcance de la auditoría.
+- Motivo de la auditoría.
+
+Permitir seleccionar el tipo de auditoría:
+
+- Auditoría administrativa.
+- Auditoría contable y financiera.
+- Auditoría de talento humano.
+- Auditoría de seguridad y salud en el trabajo.
+- Auditoría de calidad.
+- Auditoría documental.
+- Auditoría de gestión.
+- Auditoría de cumplimiento legal.
+- Auditoría de procesos.
+
+2. MÓDULO DE PLAN DE AUDITORÍA
+
+Generar automáticamente un plan de auditoría que contenga:
+
+- Objetivo.
+- Alcance.
+- Criterios de auditoría.
+- Procesos que se van a evaluar.
+- Responsables.
+- Actividades.
+- Fechas.
+- Horarios.
+- Recursos necesarios.
+- Técnicas de recolección de información.
+
+Incluir como criterios de auditoría:
+
+1. Normas técnicas.
+2. Normas legales.
+3. Caracterización de procesos.
+4. Procedimientos internos.
+5. Documentos y planes de la empresa.
+6. Condiciones de limpieza y orden.
+
+Permitir agregar, modificar y eliminar criterios según las necesidades de cada empresa.
+
+3. MÓDULO DE ACTA DE INICIACIÓN
+
+Crear automáticamente un acta de apertura de auditoría que incluya:
+
+- Identificación de la empresa.
+- Fecha y hora de inicio.
+- Nombre del auditor.
+- Participantes.
+- Objetivo y alcance.
+- Procesos que serán auditados.
+- Metodología de trabajo.
+- Responsabilidades de los participantes.
+- Firma del auditor y del representante de la empresa.
+
+4. MÓDULO DE LISTA DE CHEQUEO
+
+Crear listas de chequeo interactivas para evaluar cada proceso de la empresa.
+
+Cada pregunta debe tener las siguientes opciones:
+
+- Cumple.
+- No cumple.
+- Cumple parcialmente.
+- No aplica.
+
+Cada pregunta debe permitir registrar:
+
+- Observaciones.
+- Evidencias encontradas.
+- Documentos revisados.
+- Fotografías.
+- Nombre del responsable.
+- Fecha de verificación.
+
+La aplicación debe permitir crear preguntas personalizadas según el área que se esté auditando.
+
+Cuando se identifique un incumplimiento, debe abrir automáticamente un formulario para registrar el hallazgo.
+
+5. MÓDULO DE REGISTRO Y ANÁLISIS DE HALLAZGOS
+
+Por cada hallazgo identificado, la aplicación debe responder obligatoriamente las siguientes preguntas:
+
+A. ¿Cuál es la debilidad o problema encontrado en la empresa?
+
+B. ¿En qué momento o etapa del proceso se encontró el problema?
+
+C. ¿Qué norma, requisito o criterio se está incumpliendo?
+
+D. ¿Cuáles son las consecuencias actuales y futuras de incumplir esta norma?
+
+E. ¿Cómo se puede solucionar el incumplimiento?
+
+Además, registrar:
+
+- Descripción detallada del hallazgo.
+- Evidencia objetiva.
+- Área responsable.
+- Responsable de solucionar.
+- Clasificación del hallazgo.
+- Fecha de identificación.
+
+Clasificar los hallazgos en:
+
+- No conformidad mayor.
+- No conformidad menor.
+- Observación.
+- Oportunidad de mejora.
+
+6. MÓDULO DE EVALUACIÓN Y CALIFICACIÓN DEL RIESGO
+
+Implementar una matriz de evaluación de riesgos que permita identificar:
+
+- Riesgo identificado.
+- Causa del riesgo.
+- Consecuencias.
+- Probabilidad de ocurrencia.
+- Impacto.
+- Nivel de riesgo.
+- Controles existentes.
+- Acciones preventivas.
+
+Clasificar los riesgos en:
+
+- Bajo.
+- Medio.
+- Alto.
+- Crítico.
+
+Mostrar los resultados mediante gráficos y una matriz de colores.
+
+La metodología de evaluación debe ser configurable y explicar cómo se obtiene cada calificación.
+
+7. MÓDULO DE ACTA DE CIERRE
+
+Generar un acta de cierre que incluya:
+
+- Fecha de finalización.
+- Participantes.
+- Procesos auditados.
+- Actividades realizadas.
+- Número de hallazgos.
+- Principales debilidades encontradas.
+- Riesgos identificados.
+- Recomendaciones iniciales.
+- Compromisos de la empresa.
+- Firmas de los responsables.
+
+8. MÓDULO DE INFORME FINAL DE AUDITORÍA
+
+Generar automáticamente un informe profesional que contenga:
+
+1. Portada.
+2. Información general de la empresa.
+3. Introducción.
+4. Objetivo de la auditoría.
+5. Alcance.
+6. Metodología.
+7. Criterios utilizados.
+8. Desarrollo de la auditoría.
+9. Resultados de la lista de chequeo.
+10. Hallazgos identificados.
+11. Evidencias.
+12. Matriz de riesgos.
+13. Conclusiones.
+14. Recomendaciones.
+15. Plan de mejoramiento.
+
+El informe debe poder descargarse en PDF y Word.
+
+9. MÓDULO DE PLAN DE MEJORAMIENTO
+
+Cuando se detecte una no conformidad, generar una propuesta de plan de mejoramiento con:
+
+- Problema identificado.
+- Causa raíz.
+- Acción correctiva.
+- Acción preventiva.
+- Actividades por desarrollar.
+- Responsable.
+- Recursos necesarios.
+- Fecha de inicio.
+- Fecha límite.
+- Indicador de cumplimiento.
+- Meta.
+- Estado de ejecución.
+
+Permitir realizar seguimiento a las acciones y verificar si el problema fue solucionado.
+
+10. PANEL PRINCIPAL Y DASHBOARD
+
+Crear un tablero de control con indicadores automáticos:
+
+- Total de auditorías realizadas.
+- Auditorías programadas.
+- Auditorías en ejecución.
+- Auditorías finalizadas.
+- Total de hallazgos.
+- No conformidades mayores y menores.
+- Riesgos altos y críticos.
+- Porcentaje de cumplimiento.
+- Porcentaje de acciones correctivas ejecutadas.
+
+Incluir gráficos estadísticos y semáforos de cumplimiento.
+
+11. FUNCIONALIDADES GENERALES
+
+La aplicación debe contar con:
+
+- Registro e inicio de sesión.
+- Perfiles de administrador, auditor y responsable del proceso.
+- Registro de varias empresas.
+- Historial de auditorías.
+- Guardado automático de información.
+- Edición y eliminación de registros con permisos.
+- Buscador de empresas y auditorías.
+- Adjuntar fotografías y documentos.
+- Generación de informes.
+- Exportación a PDF y Excel.
+- Impresión de documentos.
+- Seguimiento de auditorías anteriores.
+
+12. DISEÑO Y EXPERIENCIA DEL USUARIO
+
+Diseñar una interfaz empresarial moderna, elegante y profesional.
+
+Utilizar:
+
+- Colores azul oscuro, blanco y gris.
+- Menú lateral de navegación.
+- Panel principal con indicadores.
+- Tablas organizadas.
+- Formularios sencillos.
+- Gráficos estadísticos.
+- Botones visibles y funcionales.
+
+La aplicación debe ser adaptable a computadores, tabletas y celulares.
+
+13. REQUISITOS IMPORTANTES
+
+La aplicación debe ser funcional, no solamente una demostración visual.
+
+Todos los botones deben ejecutar acciones reales. La información debe guardarse en una base de datos y permanecer disponible al cerrar y volver a abrir la aplicación.
+
+Debe permitir realizar auditorías diferentes para cada empresa y adaptar los criterios de evaluación a su actividad económica.
+
+Las normas legales y técnicas deben tener identificación, versión y fecha de vigencia. No inventar normas ni declarar incumplimientos sin evidencia. Permitir que el auditor registre y verifique los requisitos aplicables.
+
+Tomar como referencia las buenas prácticas de auditoría de la ISO 19011 y las normas colombianas que correspondan al sector y al proceso auditado.
+
+OBJETIVO FINAL: Crear un sistema integral que permita realizar una auditoría empresarial desde su programación hasta el informe final, identificando debilidades, incumplimientos, consecuencias, riesgos y soluciones, con documentación profesional y trazabilidad de todo el proceso.DESARROLLO DE UNA APLICACIÓN WEB PARA AUDITORÍAS EMPRESARIALES
+
+Desarrollar una aplicación web profesional, moderna, intuitiva y funcional llamada AUDITPRO – Sistema Integral de Auditoría Empresarial, que permita planificar, ejecutar, documentar y evaluar auditorías internas en cualquier tipo de empresa, independientemente de su tamaño o actividad económica.
+
+La aplicación debe estar diseñada para que un auditor pueda evaluar los procesos de una organización, identificar debilidades, detectar incumplimientos de normas, establecer riesgos y generar recomendaciones y planes de mejoramiento.
+
+1. MÓDULO DE PROGRAMACIÓN DE LA AUDITORÍA
+
+Permitir registrar:
+
+- Nombre de la empresa.
+- NIT.
+- Sector económico.
+- Actividad económica.
+- Dirección.
+- Nombre del representante legal.
+- Nombre del auditor.
+- Área o proceso que se va a auditar.
+- Fecha de programación.
+- Fecha de ejecución.
+- Objetivo de la auditoría.
+- Alcance de la auditoría.
+- Motivo de la auditoría.
+
+Permitir seleccionar el tipo de auditoría:
+
+- Auditoría administrativa.
+- Auditoría contable y financiera.
+- Auditoría de talento humano.
+- Auditoría de seguridad y salud en el trabajo.
+- Auditoría de calidad.
+- Auditoría documental.
+- Auditoría de gestión.
+- Auditoría de cumplimiento legal.
+- Auditoría de procesos.
+
+2. MÓDULO DE PLAN DE AUDITORÍA
+
+Generar automáticamente un plan de auditoría que contenga:
+
+- Objetivo.
+- Alcance.
+- Criterios de auditoría.
+- Procesos que se van a evaluar.
+- Responsables.
+- Actividades.
+- Fechas.
+- Horarios.
+- Recursos necesarios.
+- Técnicas de recolección de información.
+
+Incluir como criterios de auditoría:
+
+1. Normas técnicas.
+2. Normas legales.
+3. Caracterización de procesos.
+4. Procedimientos internos.
+5. Documentos y planes de la empresa.
+6. Condiciones de limpieza y orden.
+
+Permitir agregar, modificar y eliminar criterios según las necesidades de cada empresa.
+
+3. MÓDULO DE ACTA DE INICIACIÓN
+
+Crear automáticamente un acta de apertura de auditoría que incluya:
+
+- Identificación de la empresa.
+- Fecha y hora de inicio.
+- Nombre del auditor.
+- Participantes.
+- Objetivo y alcance.
+- Procesos que serán auditados.
+- Metodología de trabajo.
+- Responsabilidades de los participantes.
+- Firma del auditor y del representante de la empresa.
+
+4. MÓDULO DE LISTA DE CHEQUEO
+
+Crear listas de chequeo interactivas para evaluar cada proceso de la empresa.
+
+Cada pregunta debe tener las siguientes opciones:
+
+- Cumple.
+- No cumple.
+- Cumple parcialmente.
+- No aplica.
+
+Cada pregunta debe permitir registrar:
+
+- Observaciones.
+- Evidencias encontradas.
+- Documentos revisados.
+- Fotografías.
+- Nombre del responsable.
+- Fecha de verificación.
+
+La aplicación debe permitir crear preguntas personalizadas según el área que se esté auditando.
+
+Cuando se identifique un incumplimiento, debe abrir automáticamente un formulario para registrar el hallazgo.
+
+5. MÓDULO DE REGISTRO Y ANÁLISIS DE HALLAZGOS
+
+Por cada hallazgo identificado, la aplicación debe responder obligatoriamente las siguientes preguntas:
+
+A. ¿Cuál es la debilidad o problema encontrado en la empresa?
+
+B. ¿En qué momento o etapa del proceso se encontró el problema?
+
+C. ¿Qué norma, requisito o criterio se está incumpliendo?
+
+D. ¿Cuáles son las consecuencias actuales y futuras de incumplir esta norma?
+
+E. ¿Cómo se puede solucionar el incumplimiento?
+
+Además, registrar:
+
+- Descripción detallada del hallazgo.
+- Evidencia objetiva.
+- Área responsable.
+- Responsable de solucionar.
+- Clasificación del hallazgo.
+- Fecha de identificación.
+
+Clasificar los hallazgos en:
+
+- No conformidad mayor.
+- No conformidad menor.
+- Observación.
+- Oportunidad de mejora.
+
+6. MÓDULO DE EVALUACIÓN Y CALIFICACIÓN DEL RIESGO
+
+Implementar una matriz de evaluación de riesgos que permita identificar:
+
+- Riesgo identificado.
+- Causa del riesgo.
+- Consecuencias.
+- Probabilidad de ocurrencia.
+- Impacto.
+- Nivel de riesgo.
+- Controles existentes.
+- Acciones preventivas.
+
+Clasificar los riesgos en:
+
+- Bajo.
+- Medio.
+- Alto.
+- Crítico.
+
+Mostrar los resultados mediante gráficos y una matriz de colores.
+
+La metodología de evaluación debe ser configurable y explicar cómo se obtiene cada calificación.
+
+7. MÓDULO DE ACTA DE CIERRE
+
+Generar un acta de cierre que incluya:
+
+- Fecha de finalización.
+- Participantes.
+- Procesos auditados.
+- Actividades realizadas.
+- Número de hallazgos.
+- Principales debilidades encontradas.
+- Riesgos identificados.
+- Recomendaciones iniciales.
+- Compromisos de la empresa.
+- Firmas de los responsables.
+
+8. MÓDULO DE INFORME FINAL DE AUDITORÍA
+
+Generar automáticamente un informe profesional que contenga:
+
+1. Portada.
+2. Información general de la empresa.
+3. Introducción.
+4. Objetivo de la auditoría.
+5. Alcance.
+6. Metodología.
+7. Criterios utilizados.
+8. Desarrollo de la auditoría.
+9. Resultados de la lista de chequeo.
+10. Hallazgos identificados.
+11. Evidencias.
+12. Matriz de riesgos.
+13. Conclusiones.
+14. Recomendaciones.
+15. Plan de mejoramiento.
+
+El informe debe poder descargarse en PDF y Word.
+
+9. MÓDULO DE PLAN DE MEJORAMIENTO
+
+Cuando se detecte una no conformidad, generar una propuesta de plan de mejoramiento con:
+
+- Problema identificado.
+- Causa raíz.
+- Acción correctiva.
+- Acción preventiva.
+- Actividades por desarrollar.
+- Responsable.
+- Recursos necesarios.
+- Fecha de inicio.
+- Fecha límite.
+- Indicador de cumplimiento.
+- Meta.
+- Estado de ejecución.
+
+Permitir realizar seguimiento a las acciones y verificar si el problema fue solucionado.
+
+10. PANEL PRINCIPAL Y DASHBOARD
+
+Crear un tablero de control con indicadores automáticos:
+
+- Total de auditorías realizadas.
+- Auditorías programadas.
+- Auditorías en ejecución.
+- Auditorías finalizadas.
+- Total de hallazgos.
+- No conformidades mayores y menores.
+- Riesgos altos y críticos.
+- Porcentaje de cumplimiento.
+- Porcentaje de acciones correctivas ejecutadas.
+
+Incluir gráficos estadísticos y semáforos de cumplimiento.
+
+11. FUNCIONALIDADES GENERALES
+
+La aplicación debe contar con:
+
+- Registro e inicio de sesión.
+- Perfiles de administrador, auditor y responsable del proceso.
+- Registro de varias empresas.
+- Historial de auditorías.
+- Guardado automático de información.
+- Edición y eliminación de registros con permisos.
+- Buscador de empresas y auditorías.
+- Adjuntar fotografías y documentos.
+- Generación de informes.
+- Exportación a PDF y Excel.
+- Impresión de documentos.
+- Seguimiento de auditorías anteriores.
+
+12. DISEÑO Y EXPERIENCIA DEL USUARIO
+
+Diseñar una interfaz empresarial moderna, elegante y profesional.
+
+Utilizar:
+
+- Colores azul oscuro, blanco y gris.
+- Menú lateral de navegación.
+- Panel principal con indicadores.
+- Tablas organizadas.
+- Formularios sencillos.
+- Gráficos estadísticos.
+- Botones visibles y funcionales.
+
+La aplicación debe ser adaptable a computadores, tabletas y celulares.
+
+13. REQUISITOS IMPORTANTES
+
+La aplicación debe ser funcional, no solamente una demostración visual.
+
+Todos los botones deben ejecutar acciones reales. La información debe guardarse en una base de datos y permanecer disponible al cerrar y volver a abrir la aplicación.
+
+Debe permitir realizar auditorías diferentes para cada empresa y adaptar los criterios de evaluación a su actividad económica.
+
+Las normas legales y técnicas deben tener identificación, versión y fecha de vigencia. No inventar normas ni declarar incumplimientos sin evidencia. Permitir que el auditor registre y verifique los requisitos aplicables.
+
+Tomar como referencia las buenas prácticas de auditoría de la ISO 19011 y las normas colombianas que correspondan al sector y al proceso auditado.
+
+OBJETIVO FINAL: Crear un sistema integral que permita realizar una auditoría empresarial desde su programación hasta el informe final, identificando debilidades, incumplimientos, consecuencias, riesgos y soluciones, con documentación profesional y trazabilidad de todo el proceso.DESARROLLO DE UNA APLICACIÓN WEB PARA AUDITORÍAS EMPRESARIALES
+
+Desarrollar una aplicación web profesional, moderna, intuitiva y funcional llamada AUDITPRO – Sistema Integral de Auditoría Empresarial, que permita planificar, ejecutar, documentar y evaluar auditorías internas en cualquier tipo de empresa, independientemente de su tamaño o actividad económica.
+
+La aplicación debe estar diseñada para que un auditor pueda evaluar los procesos de una organización, identificar debilidades, detectar incumplimientos de normas, establecer riesgos y generar recomendaciones y planes de mejoramiento.
+
+1. MÓDULO DE PROGRAMACIÓN DE LA AUDITORÍA
+
+Permitir registrar:
+
+- Nombre de la empresa.
+- NIT.
+- Sector económico.
+- Actividad económica.
+- Dirección.
+- Nombre del representante legal.
+- Nombre del auditor.
+- Área o proceso que se va a auditar.
+- Fecha de programación.
+- Fecha de ejecución.
+- Objetivo de la auditoría.
+- Alcance de la auditoría.
+- Motivo de la auditoría.
+
+Permitir seleccionar el tipo de auditoría:
+
+- Auditoría administrativa.
+- Auditoría contable y financiera.
+- Auditoría de talento humano.
+- Auditoría de seguridad y salud en el trabajo.
+- Auditoría de calidad.
+- Auditoría documental.
+- Auditoría de gestión.
+- Auditoría de cumplimiento legal.
+- Auditoría de procesos.
+
+2. MÓDULO DE PLAN DE AUDITORÍA
+
+Generar automáticamente un plan de auditoría que contenga:
+
+- Objetivo.
+- Alcance.
+- Criterios de auditoría.
+- Procesos que se van a evaluar.
+- Responsables.
+- Actividades.
+- Fechas.
+- Horarios.
+- Recursos necesarios.
+- Técnicas de recolección de información.
+
+Incluir como criterios de auditoría:
+
+1. Normas técnicas.
+2. Normas legales.
+3. Caracterización de procesos.
+4. Procedimientos internos.
+5. Documentos y planes de la empresa.
+6. Condiciones de limpieza y orden.
+
+Permitir agregar, modificar y eliminar criterios según las necesidades de cada empresa.
+
+3. MÓDULO DE ACTA DE INICIACIÓN
+
+Crear automáticamente un acta de apertura de auditoría que incluya:
+
+- Identificación de la empresa.
+- Fecha y hora de inicio.
+- Nombre del auditor.
+- Participantes.
+- Objetivo y alcance.
+- Procesos que serán auditados.
+- Metodología de trabajo.
+- Responsabilidades de los participantes.
+- Firma del auditor y del representante de la empresa.
+
+4. MÓDULO DE LISTA DE CHEQUEO
+
+Crear listas de chequeo interactivas para evaluar cada proceso de la empresa.
+
+Cada pregunta debe tener las siguientes opciones:
+
+- Cumple.
+- No cumple.
+- Cumple parcialmente.
+- No aplica.
+
+Cada pregunta debe permitir registrar:
+
+- Observaciones.
+- Evidencias encontradas.
+- Documentos revisados.
+- Fotografías.
+- Nombre del responsable.
+- Fecha de verificación.
+
+La aplicación debe permitir crear preguntas personalizadas según el área que se esté auditando.
+
+Cuando se identifique un incumplimiento, debe abrir automáticamente un formulario para registrar el hallazgo.
+
+5. MÓDULO DE REGISTRO Y ANÁLISIS DE HALLAZGOS
+
+Por cada hallazgo identificado, la aplicación debe responder obligatoriamente las siguientes preguntas:
+
+A. ¿Cuál es la debilidad o problema encontrado en la empresa?
+
+B. ¿En qué momento o etapa del proceso se encontró el problema?
+
+C. ¿Qué norma, requisito o criterio se está incumpliendo?
+
+D. ¿Cuáles son las consecuencias actuales y futuras de incumplir esta norma?
+
+E. ¿Cómo se puede solucionar el incumplimiento?
+
+Además, registrar:
+
+- Descripción detallada del hallazgo.
+- Evidencia objetiva.
+- Área responsable.
+- Responsable de solucionar.
+- Clasificación del hallazgo.
+- Fecha de identificación.
+
+Clasificar los hallazgos en:
+
+- No conformidad mayor.
+- No conformidad menor.
+- Observación.
+- Oportunidad de mejora.
+
+6. MÓDULO DE EVALUACIÓN Y CALIFICACIÓN DEL RIESGO
+
+Implementar una matriz de evaluación de riesgos que permita identificar:
+
+- Riesgo identificado.
+- Causa del riesgo.
+- Consecuencias.
+- Probabilidad de ocurrencia.
+- Impacto.
+- Nivel de riesgo.
+- Controles existentes.
+- Acciones preventivas.
+
+Clasificar los riesgos en:
+
+- Bajo.
+- Medio.
+- Alto.
+- Crítico.
+
+Mostrar los resultados mediante gráficos y una matriz de colores.
+
+La metodología de evaluación debe ser configurable y explicar cómo se obtiene cada calificación.
+
+7. MÓDULO DE ACTA DE CIERRE
+
+Generar un acta de cierre que incluya:
+
+- Fecha de finalización.
+- Participantes.
+- Procesos auditados.
+- Actividades realizadas.
+- Número de hallazgos.
+- Principales debilidades encontradas.
+- Riesgos identificados.
+- Recomendaciones iniciales.
+- Compromisos de la empresa.
+- Firmas de los responsables.
+
+8. MÓDULO DE INFORME FINAL DE AUDITORÍA
+
+Generar automáticamente un informe profesional que contenga:
+
+1. Portada.
+2. Información general de la empresa.
+3. Introducción.
+4. Objetivo de la auditoría.
+5. Alcance.
+6. Metodología.
+7. Criterios utilizados.
+8. Desarrollo de la auditoría.
+9. Resultados de la lista de chequeo.
+10. Hallazgos identificados.
+11. Evidencias.
+12. Matriz de riesgos.
+13. Conclusiones.
+14. Recomendaciones.
+15. Plan de mejoramiento.
+
+El informe debe poder descargarse en PDF y Word.
+
+9. MÓDULO DE PLAN DE MEJORAMIENTO
+
+Cuando se detecte una no conformidad, generar una propuesta de plan de mejoramiento con:
+
+- Problema identificado.
+- Causa raíz.
+- Acción correctiva.
+- Acción preventiva.
+- Actividades por desarrollar.
+- Responsable.
+- Recursos necesarios.
+- Fecha de inicio.
+- Fecha límite.
+- Indicador de cumplimiento.
+- Meta.
+- Estado de ejecución.
+
+Permitir realizar seguimiento a las acciones y verificar si el problema fue solucionado.
+
+10. PANEL PRINCIPAL Y DASHBOARD
+
+Crear un tablero de control con indicadores automáticos:
+
+- Total de auditorías realizadas.
+- Auditorías programadas.
+- Auditorías en ejecución.
+- Auditorías finalizadas.
+- Total de hallazgos.
+- No conformidades mayores y menores.
+- Riesgos altos y críticos.
+- Porcentaje de cumplimiento.
+- Porcentaje de acciones correctivas ejecutadas.
+
+Incluir gráficos estadísticos y semáforos de cumplimiento.
+
+11. FUNCIONALIDADES GENERALES
+
+La aplicación debe contar con:
+
+- Registro e inicio de sesión.
+- Perfiles de administrador, auditor y responsable del proceso.
+- Registro de varias empresas.
+- Historial de auditorías.
+- Guardado automático de información.
+- Edición y eliminación de registros con permisos.
+- Buscador de empresas y auditorías.
+- Adjuntar fotografías y documentos.
+- Generación de informes.
+- Exportación a PDF y Excel.
+- Impresión de documentos.
+- Seguimiento de auditorías anteriores.
+
+12. DISEÑO Y EXPERIENCIA DEL USUARIO
+
+Diseñar una interfaz empresarial moderna, elegante y profesional.
+
+Utilizar:
+
+- Colores azul oscuro, blanco y gris.
+- Menú lateral de navegación.
+- Panel principal con indicadores.
+- Tablas organizadas.
+- Formularios sencillos.
+- Gráficos estadísticos.
+- Botones visibles y funcionales.
+
+La aplicación debe ser adaptable a computadores, tabletas y celulares.
+
+13. REQUISITOS IMPORTANTES
+
+La aplicación debe ser funcional, no solamente una demostración visual.
+
+Todos los botones deben ejecutar acciones reales. La información debe guardarse en una base de datos y permanecer disponible al cerrar y volver a abrir la aplicación.
+
+Debe permitir realizar auditorías diferentes para cada empresa y adaptar los criterios de evaluación a su actividad económica.
+
+Las normas legales y técnicas deben tener identificación, versión y fecha de vigencia. No inventar normas ni declarar incumplimientos sin evidencia. Permitir que el auditor registre y verifique los requisitos aplicables.
+
+Tomar como referencia las buenas prácticas de auditoría de la ISO 19011 y las normas colombianas que correspondan al sector y al proceso auditado.
+
+OBJETIVO FINAL: Crear un sistema integral que permita realizar una auditoría empresarial desde su programación hasta el informe final, identificando debilidades, incumplimientos, consecuencias, riesgos y soluciones, con documentación profesional y trazabilidad de todo el proceso.
+
+---------- Forwarded message ---------
+De: Liyana Yisel Sepulveda Zapata <liyanasepulvedaz@sagradafamiliahpar.edu.co>
+Date: vie, 6 de nov de 2026, 12:52
+Subject:
+To: <cami23356@gmail.com>
+
+
+DESARROLLO DE UNA APLICACIÓN WEB PARA AUDITORÍAS EMPRESARIALES
+
+Desarrollar una aplicación web profesional, moderna, intuitiva y funcional llamada AUDITPRO – Sistema Integral de Auditoría Empresarial, que permita planificar, ejecutar, documentar y evaluar auditorías internas en cualquier tipo de empresa, independientemente de su tamaño o actividad económica.
+
+La aplicación debe estar diseñada para que un auditor pueda evaluar los procesos de una organización, identificar debilidades, detectar incumplimientos de normas, establecer riesgos y generar recomendaciones y planes de mejoramiento.
+
+1. MÓDULO DE PROGRAMACIÓN DE LA AUDITORÍA
+
+Permitir registrar:
+
+- Nombre de la empresa.
+- NIT.
+- Sector económico.
+- Actividad económica.
+- Dirección.
+- Nombre del representante legal.
+- Nombre del auditor.
+- Área o proceso que se va a auditar.
+- Fecha de programación.
+- Fecha de ejecución.
+- Objetivo de la auditoría.
+- Alcance de la auditoría.
+- Motivo de la auditoría.
+
+Permitir seleccionar el tipo de auditoría:
+
+- Auditoría administrativa.
+- Auditoría contable y financiera.
+- Auditoría de talento humano.
+- Auditoría de seguridad y salud en el trabajo.
+- Auditoría de calidad.
+- Auditoría documental.
+- Auditoría de gestión.
+- Auditoría de cumplimiento legal.
+- Auditoría de procesos.
+
+2. MÓDULO DE PLAN DE AUDITORÍA
+
+Generar automáticamente un plan de auditoría que contenga:
+
+- Objetivo.
+- Alcance.
+- Criterios de auditoría.
+- Procesos que se van a evaluar.
+- Responsables.
+- Actividades.
+- Fechas.
+- Horarios.
+- Recursos necesarios.
+- Técnicas de recolección de información.
+
+Incluir como criterios de auditoría:
+
+1. Normas técnicas.
+2. Normas legales.
+3. Caracterización de procesos.
+4. Procedimientos internos.
+5. Documentos y planes de la empresa.
+6. Condiciones de limpieza y orden.
+
+Permitir agregar, modificar y eliminar criterios según las necesidades de cada empresa.
+
+3. MÓDULO DE ACTA DE INICIACIÓN
+
+Crear automáticamente un acta de apertura de auditoría que incluya:
+
+- Identificación de la empresa.
+- Fecha y hora de inicio.
+- Nombre del auditor.
+- Participantes.
+- Objetivo y alcance.
+- Procesos que serán auditados.
+- Metodología de trabajo.
+- Responsabilidades de los participantes.
+- Firma del auditor y del representante de la empresa.
+
+4. MÓDULO DE LISTA DE CHEQUEO
+
+Crear listas de chequeo interactivas para evaluar cada proceso de la empresa.
+
+Cada pregunta debe tener las siguientes opciones:
+
+- Cumple.
+- No cumple.
+- Cumple parcialmente.
+- No aplica.
+
+Cada pregunta debe permitir registrar:
+
+- Observaciones.
+- Evidencias encontradas.
+- Documentos revisados.
+- Fotografías.
+- Nombre del responsable.
+- Fecha de verificación.
+
+La aplicación debe permitir crear preguntas personalizadas según el área que se esté auditando.
+
+Cuando se identifique un incumplimiento, debe abrir automáticamente un formulario para registrar el hallazgo.
+
+5. MÓDULO DE REGISTRO Y ANÁLISIS DE HALLAZGOS
+
+Por cada hallazgo identificado, la aplicación debe responder obligatoriamente las siguientes preguntas:
+
+A. ¿Cuál es la debilidad o problema encontrado en la empresa?
+
+B. ¿En qué momento o etapa del proceso se encontró el problema?
+
+C. ¿Qué norma, requisito o criterio se está incumpliendo?
+
+D. ¿Cuáles son las consecuencias actuales y futuras de incumplir esta norma?
+
+E. ¿Cómo se puede solucionar el incumplimiento?
+
+Además, registrar:
+
+- Descripción detallada del hallazgo.
+- Evidencia objetiva.
+- Área responsable.
+- Responsable de solucionar.
+- Clasificación del hallazgo.
+- Fecha de identificación.
+
+Clasificar los hallazgos en:
+
+- No conformidad mayor.
+- No conformidad menor.
+- Observación.
+- Oportunidad de mejora.
+
+6. MÓDULO DE EVALUACIÓN Y CALIFICACIÓN DEL RIESGO
+
+Implementar una matriz de evaluación de riesgos que permita identificar:
+
+- Riesgo identificado.
+- Causa del riesgo.
+- Consecuencias.
+- Probabilidad de ocurrencia.
+- Impacto.
+- Nivel de riesgo.
+- Controles existentes.
+- Acciones preventivas.
+
+Clasificar los riesgos en:
+
+- Bajo.
+- Medio.
+- Alto.
+- Crítico.
+
+Mostrar los resultados mediante gráficos y una matriz de colores.
+
+La metodología de evaluación debe ser configurable y explicar cómo se obtiene cada calificación.
+
+7. MÓDULO DE ACTA DE CIERRE
+
+Generar un acta de cierre que incluya:
+
+- Fecha de finalización.
+- Participantes.
+- Procesos auditados.
+- Actividades realizadas.
+- Número de hallazgos.
+- Principales debilidades encontradas.
+- Riesgos identificados.
+- Recomendaciones iniciales.
+- Compromisos de la empresa.
+- Firmas de los responsables.
+
+8. MÓDULO DE INFORME FINAL DE AUDITORÍA
+
+Generar automáticamente un informe profesional que contenga:
+
+1. Portada.
+2. Información general de la empresa.
+3. Introducción.
+4. Objetivo de la auditoría.
+5. Alcance.
+6. Metodología.
+7. Criterios utilizados.
+8. Desarrollo de la auditoría.
+9. Resultados de la lista de chequeo.
+10. Hallazgos identificados.
+11. Evidencias.
+12. Matriz de riesgos.
+13. Conclusiones.
+14. Recomendaciones.
+15. Plan de mejoramiento.
+
+El informe debe poder descargarse en PDF y Word.
+
+9. MÓDULO DE PLAN DE MEJORAMIENTO
+
+Cuando se detecte una no conformidad, generar una propuesta de plan de mejoramiento con:
+
+- Problema identificado.
+- Causa raíz.
+- Acción correctiva.
+- Acción preventiva.
+- Actividades por desarrollar.
+- Responsable.
+- Recursos necesarios.
+- Fecha de inicio.
+- Fecha límite.
+- Indicador de cumplimiento.
+- Meta.
+- Estado de ejecución.
+
+Permitir realizar seguimiento a las acciones y verificar si el problema fue solucionado.
+
+10. PANEL PRINCIPAL Y DASHBOARD
+
+Crear un tablero de control con indicadores automáticos:
+
+- Total de auditorías realizadas.
+- Auditorías programadas.
+- Auditorías en ejecución.
+- Auditorías finalizadas.
+- Total de hallazgos.
+- No conformidades mayores y menores.
+- Riesgos altos y críticos.
+- Porcentaje de cumplimiento.
+- Porcentaje de acciones correctivas ejecutadas.
+
+Incluir gráficos estadísticos y semáforos de cumplimiento.
+
+11. FUNCIONALIDADES GENERALES
+
+La aplicación debe contar con:
+
+- Registro e inicio de sesión.
+- Perfiles de administrador, auditor y responsable del proceso.
+- Registro de varias empresas.
+- Historial de auditorías.
+- Guardado automático de información.
+- Edición y eliminación de registros con permisos.
+- Buscador de empresas y auditorías.
+- Adjuntar fotografías y documentos.
+- Generación de informes.
+- Exportación a PDF y Excel.
+- Impresión de documentos.
+- Seguimiento de auditorías anteriores.
+
+12. DISEÑO Y EXPERIENCIA DEL USUARIO
+
+Diseñar una interfaz empresarial moderna, elegante y profesional.
+
+Utilizar:
+
+- Colores azul oscuro, blanco y gris.
+- Menú lateral de navegación.
+- Panel principal con indicadores.
+- Tablas organizadas.
+- Formularios sencillos.
+- Gráficos estadísticos.
+- Botones visibles y funcionales.
+
+La aplicación debe ser adaptable a computadores, tabletas y celulares.
+
+13. REQUISITOS IMPORTANTES
+
+La aplicación debe ser funcional, no solamente una demostración visual.
+
+Todos los botones deben ejecutar acciones reales. La información debe guardarse en una base de datos y permanecer disponible al cerrar y volver a abrir la aplicación.
+
+Debe permitir realizar auditorías diferentes para cada empresa y adaptar los criterios de evaluación a su actividad económica.
+
+Las normas legales y técnicas deben tener identificación, versión y fecha de vigencia. No inventar normas ni declarar incumplimientos sin evidencia. Permitir que el auditor registre y verifique los requisitos aplicables.
+
+Tomar como referencia las buenas prácticas de auditoría de la ISO 19011 y las normas colombianas que correspondan al sector y al proceso auditado.
+
+OBJETIVO FINAL: Crear un sistema integral que permita realizar una auditoría empresarial desde su programación hasta el informe final, identificando debilidades, incumplimientos, consecuencias, riesgos y soluciones, con documentación profesional y trazabilidad de todo el proceso.
